@@ -70,26 +70,32 @@ The output will be saved as a `.ppm` image file.
 #### 1. Ray-Sphere Intersection
 - Implemented using quadratic solutions to determine intersections.
 - **Issue Fixed**: Initial color inaccuracies corrected by refining shading calculations.
+![image](https://github.com/user-attachments/assets/feda4426-051d-4928-9adf-9cd492ea3071)
 
 #### 2. Ray-Plane Intersection
 - Plane normal computed using cross products of edges.
 - **Issue Fixed**: Adjusted intersection logic to prevent incorrect rendering artifacts.
+![image](https://github.com/user-attachments/assets/1edc3a4a-c82e-44d6-8cb6-30e2a394ad6a)
 
 #### 3. Ray-Triangle Intersection
 - Uses barycentric coordinate method for robust intersection testing.
 - **Reference**: Scratchapixel’s geometric solution.
+![image](https://github.com/user-attachments/assets/474533c0-83cf-40e3-bcba-b938cfb4d090)
 
 #### 4. Ray-Mesh Intersection
 - PLY file reader implemented to parse vertex and face data.
 - **Issue Fixed**: Triangle-based intersection improved for complex mesh rendering.
+![image](https://github.com/user-attachments/assets/ce2d1756-464d-46fb-90eb-fbd5ee8beab0)
 
 #### 5. Blinn-Phong Shading & Reflection
 - Diffuse and specular reflection calculated using normal vectors and light direction.
 - **Issue Fixed**: Reflection rendering corrected to properly handle multiple objects.
+![image](https://github.com/user-attachments/assets/3a1d0083-8818-4393-8306-3eb69afd018e)
 
 #### 6. Texture Mapping
 - UV mapping applied to sphere, plane, and triangle meshes.
 - **Issue Fixed**: Adjusted texture scaling for better alignment.
+![image](https://github.com/user-attachments/assets/0e1ae959-6b82-42fb-8aab-f4829444fa7a)
 
 ## Future Enhancements
 - Implementing **Bounding Volume Hierarchy (BVH)** for optimized rendering.
