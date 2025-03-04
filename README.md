@@ -67,11 +67,6 @@ make
 The output will be saved as a `.ppm` image file.
 
 ## Results & Performance
-- The final rendered image showcases various features such as reflections, refractions, soft shadows, and texture mapping.
-- Performance comparison with and without BVH demonstrates significant speedup in rendering.
-- Jittered sampling reduces noise in distributed ray tracing compared to random sampling.
-
-### Sample Rendered Images
 #### 1. Ray-Sphere Intersection
 - Implemented using quadratic solutions to determine intersections.
 - **Issue Fixed**: Initial color inaccuracies corrected by refining shading calculations.
